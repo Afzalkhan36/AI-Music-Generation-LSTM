@@ -1,0 +1,7 @@
+music21
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+midi2audio
