@@ -32,7 +32,7 @@ INT_TO_NOTE_PATH: str = os.path.join(SAVED_MODEL_DIR, "int_to_note.pkl")
 X_NPY_PATH: str = os.path.join(SAVED_MODEL_DIR, "X.npy")
 
 # Inference hyperparameters
-GENERATION_LENGTH: int = 500  # Number of notes/chords to generate
+GENERATION_LENGTH: int = 200  # Number of notes/chords to generate
 TEMPERATURE: float = 0.8     # Controls randomness (creativity vs coherence)
 
 
