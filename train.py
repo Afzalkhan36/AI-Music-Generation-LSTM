@@ -27,7 +27,7 @@ Y_NPY_PATH: str = os.path.join(SAVED_MODEL_DIR, "y.npy")
 CONFIG_PATH: str = os.path.join(SAVED_MODEL_DIR, "config.json")
 
 # Training hyperparameters (professional defaults for music LSTMs)
-EPOCHS: int = 3
+EPOCHS: int = 100
 BATCH_SIZE: int = 64
 VALIDATION_SPLIT: float = 0.2
 
